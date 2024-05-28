@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <h1>Olá</h1>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item hidden">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
@@ -133,6 +147,133 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </p>
     </section>
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="">
+        <div class="image-text-section__text-container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti voluptatum labore nam, facere nihil hic ipsa pariatur quidem dolores ratione laudantium cum commodi. Quasi esse repellendus tenetur libero. Itaque, porro.</p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png">
+            <img src="./dist/images/fundo_rei_leao.png" alt="">
+        </picture>
+        <div class="image-text-section__text-container image-text-section--image-full-width__text-container">
+            <h2 class="title">Baixe Filmes e Séries</h2>
+            <p class="text--big">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti voluptatum labore nam, facere nihil hic ipsa pariatur quidem dolores ratione laudantium cum commodi. Quasi esse repellendus tenetur libero. Itaque, porro.</p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo Mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Portugues</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis laboriosam natus architecto voluptatibus laborum repellat quidem. Deleniti blanditiis eos accusamus vero, consequuntur hic numquam eius sunt sint soluta nemo.
+            </p>
+            <p class="text--small">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis laboriosam natus architecto voluptatibus laborum repellat quidem. Deleniti blanditiis eos accusamus vero, consequuntur hic numquam eius sunt sint soluta nemo.
+            </p>
+        </div>
+    </footer>
     <script src="./src/main.js"></script>
 </body>
 </html>
